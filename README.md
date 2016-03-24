@@ -170,7 +170,7 @@ the width of the viewport.
 
 ### Container
 
-Container is an Ember component which set's its class depending on it's current width and your defined
+Container is an Ember component which sets it's class depending on it's current width and your defined
 breakpoint prefixes.  There are two forms of containers, `<container>` and `<grid responsive>`.
 
 The container class will be of the form:
