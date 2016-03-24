@@ -209,7 +209,7 @@ common layout situations.
 
 ### Layout Components
 
-Layout components allow you to utilize container based breakpoints
+Layout components allow you to use container based breakpoints
 instead of @media queries.
 
 ```hbs
@@ -226,8 +226,8 @@ With flexi, you can build grids with or without rows. Rows are convenient
 for item height resets with flexbox. Columns respond to @media breakpoints,
 but they can also respond to the container they are in.
 
-What css is included, columns, column classes, gutters, and breakpoints are
-[fully configurable](#config)
+You can choose which css, columns, column classes, gutters, and breakpoints
+to include. It's [fully configurable](#config)
 
 **Without rows**
 ```hbs
@@ -264,7 +264,7 @@ Flexi adds a layout service to your app.
 
 **app/services/device/layout**
 
-This service contains your breakpoints as well as booleans which
+This service contains your breakpoints, as well as booleans which
 indicate when a given breakpoint is active.
 
 This service also contains two booleans that can be used for orientation
